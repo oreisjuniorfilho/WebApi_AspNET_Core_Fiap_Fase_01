@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi_AspNET_Core_Fiap_Fase_01", "WebApi_AspNET_Core_Fiap_Fase_01\WebApi_AspNET_Core_Fiap_Fase_01.csproj", "{765C9776-9E70-4BCF-95DF-9EBE33B231DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{765C9776-9E70-4BCF-95DF-9EBE33B231DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{765C9776-9E70-4BCF-95DF-9EBE33B231DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{765C9776-9E70-4BCF-95DF-9EBE33B231DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{765C9776-9E70-4BCF-95DF-9EBE33B231DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D26D7D1E-A1C6-4D2B-8004-E34D90C7B7EA}
+	EndGlobalSection
+EndGlobal

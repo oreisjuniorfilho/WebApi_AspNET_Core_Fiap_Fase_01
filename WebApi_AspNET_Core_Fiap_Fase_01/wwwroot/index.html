@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Projeto FIAP Fase 01 Utilizando modelo do [CRUD]</title>
+    <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+    <h1>Exemplo de Formulário (To-do) CRUD</h1>
+    <h3>Novo</h3>
+    <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
+        <input type="text" id="add-name" placeholder="Nova Tarefa">
+        <input type="submit" value="Inserir">
+    </form>
+
+    <div id="editForm">
+        <h3>Alterar</h3>
+        <form action="javascript:void(0);" onsubmit="updateItem()">
+            <input type="hidden" id="edit-id">
+            <input type="checkbox" id="edit-isComplete">
+            <input type="text" id="edit-name">
+            <input type="submit" value="Salvar">
+            <a onclick="closeInput()" aria-label="Close">&#10006;</a>
+        </form>
+    </div>
+
+    <p id="counter"></p>
+
+    <table>
+        <tr>
+            <th>Tarefa Completa?</th>
+            <th>Nome</th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tbody id="todos"></tbody>
+    </table>
+
+    <script src="js/site.js" asp-append-version="true"></script>
+    <script type="text/javascript">
+        getItems();
+    </script>
+</body>
+</html>
